@@ -15,7 +15,7 @@ time<-strptime(paste(data$Date,data$Time,sep=" "),"%d/%m/%Y %H:%M:%S")
 ##Add and Save Plot
 #Create a png file called plot3 that is 480-pixel wide and 480-pixel high
 #in current working directory
-png(filename = "/Users/defaultuser/Desktop/Exploratory Data Analysis/course project 1/graphics/plot3.png",
+png(filename = "/Users/defaultuser/Desktop/Exploratory Data Analysis/project 1/graphics/plot3.png",
     width = 480, 
     height = 480)
 
